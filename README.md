@@ -7,7 +7,7 @@ Alunos
 - Ana Luiza Jorge Campos: 2525232
 - Bruna Heloísa Araújo da Silva: 2525240
 
-Disciplina Associada
+Disciplinas Associadas:
 - Programação WEB FrontEnd
   - HTML: Introdução, desde como abrir um arquivo .html e fazer seu 1° site;
   - CSS: Flexbox, integração do html ao css, responsividade;
