@@ -20,7 +20,7 @@ Forma de conteúdo que será desenvolvida
 - Página Web resultante de todos os passo a passos do tutorial disponibilizado
 
 Construção do conteúdo:
-parte 1 - slide introdutorio ao figma + construção de prototipo;
-parte 2 - slide conceitos de html + construção da pagina;
-parte 3 - slide explicativo do css + personalização da pagina html com css;
-parte 4 - slide explicativo sobre como dar deploy no GitHub Pages.
+- parte 1 - slide introdutorio ao figma + construção de prototipo;
+- parte 2 - slide conceitos de html + construção da pagina;
+- parte 3 - slide explicativo do css + personalização da pagina html com css;
+- parte 4 - slide explicativo sobre como dar deploy no GitHub Pages.
