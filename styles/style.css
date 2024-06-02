@@ -189,9 +189,21 @@ a {
 }
 
 .carrousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2em;
 }
+.carrousel h1{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #F0F0F0;
 
+}
 .slider-wrapper{
     position: relative;
     max-width: 48rem;
