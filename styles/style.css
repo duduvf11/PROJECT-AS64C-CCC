@@ -20,9 +20,19 @@
     font-style: normal;
 }
 */
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #F5F3ED;
+}
 
+a {
+    color: #F0F0F0;
 }
   
 .navbar{
@@ -30,6 +40,7 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #F0F0F0;
+    text-decoration: none;
 
     display: flex;
     align-items: center;
@@ -38,21 +49,41 @@ body {
 
 }
 
-.Chamomila_header{
-    background-image: url(/static/Cha-preto\ 1.png);
+.navbar button {
+    background: none;
+    border: none;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+}
 
+
+.Chamomila_header{
+    display: flex;
+    background-image: url(/static/Cha-preto\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;
+    flex-direction: column;
+    gap: 41px;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+.Chamomila_header h1,p{
+    width: 30%;
 }
 
 .Chamomila_header button{
     display: flex;
+    width: 15%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 32px;
-    gap: 20px;
     background: #253529;
     border-radius: 8px;
-
+    border: none;
     font-family: 'Open Sans', serif;
     font-size: 18px;
     font-weight: 800;
@@ -84,9 +115,11 @@ body {
 
 .sobre-nos{
     display: flex;
+    height: 800px;
     justify-content: center;
-
+    align-items: center;
 }
+
 
 .sobre-nos h1{
     font-family: Cormorant Garamond;
@@ -99,6 +132,7 @@ body {
 }
 
 .sobre-nos p{
+    width: 700px;
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 400;
@@ -116,7 +150,6 @@ body {
     gap: 20px;
     background: #253529;
     border-radius: 8px;
-
     font-family: 'Open Sans', serif;
     font-size: 18px;
     font-weight: 800;
