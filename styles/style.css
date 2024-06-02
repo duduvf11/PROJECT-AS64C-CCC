@@ -62,7 +62,7 @@ a {
 
 .Chamomila_header{
     display: flex;
-    background-image: url(/static/chapreto.png);
+    background-image: url("../static/chapreto.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 800px;
