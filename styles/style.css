@@ -264,4 +264,42 @@ a {
 .form_contact{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_contact label{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1F0C00;
+    display: flex;
+    gap: 200px;
+}
+
+.form_contact textarea{
+    width: 609px;
+    height: 254px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border-color: #63783D;
+    opacity: 0px;
+
+}
+
+
+footer{
+    background: #253529;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #F0F0F0;
+
 }
