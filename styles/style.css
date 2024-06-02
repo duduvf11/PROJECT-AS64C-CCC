@@ -25,6 +25,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -41,11 +42,13 @@ a {
     font-style: normal;
     color: #F0F0F0;
     text-decoration: none;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #546730;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 
 }
 
@@ -67,21 +70,22 @@ a {
     flex-direction: column;
     gap: 41px;
     justify-content: center;
-    padding-left: 120px;
 }
 
-.Chamomila_header h1,p{
+.Chamomila_header h1, .Chamomila_header p{
     width: 30%;
+    padding-left: 120px;
 }
 
 .Chamomila_header button{
     display: flex;
     width: 15%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 12px 32px;
     background: #253529;
+    margin-left: 120px;
     border-radius: 8px;
     border: none;
     font-family: 'Open Sans', serif;
@@ -118,6 +122,13 @@ a {
     height: 800px;
     justify-content: center;
     align-items: center;
+    gap: 200px;
+}
+
+.sobre-nos .text{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 
 
@@ -127,7 +138,6 @@ a {
     font-weight: 700;
     line-height: 56px;
     letter-spacing: 0.02em;
-    text-align: left;
 
 }
 
@@ -137,18 +147,16 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
-
+    width: 600px;
 }
 
 .sobre-nos button{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 12px 32px;
-    gap: 20px;
-    background: #253529;
+    background: #63783D;
     border-radius: 8px;
     font-family: 'Open Sans', serif;
     font-size: 18px;
@@ -157,9 +165,103 @@ a {
     letter-spacing: 0.03em;
     text-align: left;
     color: #F0F0F0;
+    width: 40%;
 }
 
 .cardapio{
+    display: flex;
     background-color: #63783D;
-;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.cafeonda{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 1600px;
+}
+
+.cafeonda img{
+    width: 100%;
+}
+
+.div_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_contact h1{
+    text-align: left;
+}
+
+.contact{
+    display: flex;
+    border: solid #000 2px;
+}
+
+.contact h1{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.contact a{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+
+.contact button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    background: #63783D;
+    border-radius: 8px;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F0F0F0;
+
+}
+
+.info_contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #63783D;
+}
+
+.info_text1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.info_text2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form_contact{
+    display: flex;
+    flex-direction: column;
 }

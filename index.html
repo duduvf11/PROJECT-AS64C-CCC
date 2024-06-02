@@ -48,7 +48,7 @@
               <h1>SOBRE NÓS</h1>
               <p>
                 A principal proposta da Cafeteria Chámomila é oferecer um espaço aconchegante, 
-                contendo um ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e ler excelentes livros. <br>
+                contendo um ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e ler excelentes livros. <br><br>
                 O sonho de Maria era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão por literatura,
                 venha saber mais dessa jornada:
               </p>
@@ -60,32 +60,52 @@
           </div>
 
         <div class="cardapio">
-          <img src="/static/Cafe onda.svg" alt="">
+          <div class="cafeonda">
+            <img src="/static/Cafe onda.svg" alt="">
+          </div>
+          <div class="carrousel">
             <h1>CARDÁPIO</h1>
             <article>
               <h2>Nome do Prato</h2>
             </article>
-        </div>
-
-          <div class="contato">
-            <h1>ENTRE EM CONTATO</h1>
-            <form method="post">
-              <label for="nome">Nome:</label>
-              <input type="text" id="nome" name="nome" required>
-              
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" name="email" required>
-              
-              <label for="assunto">Assunto:</label>
-              <input type="text" id="assunto" name="assunto" required>
-              
-              <label for="mensagem">Mensagem:</label>
-              <textarea id="mensagem" name="mensagem" required></textarea>
-              
-              <button type="submit">Enviar</button>
-            </form>
           </div>
+        </div>
+    
+  <div class="div_contact">
+    <h1>ENTRE EM CONTATO</h1>
+    <div class="contact">
+      <div class="info_contact">
+        <div class="info_text1">
+          <a href=""><img src="/static/telephone_icon.png" alt="icone_contato">19-991256972</a>
+          <a href=""><img src="/static/email_icon.png" alt="icone_email">contato@gmail.com</a>
+          <a href=""><img src="/static/map_icon.png" alt="icone_endereco">Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</a>
+        </div>
+        <div class="info_text2">
+          <a href=""><img src="/static/insta_icon.png" alt="icone_insta">@palavrascafeinadas</a>
+          <a href=""><img src="/static/facebook_icon.png" alt="icone_facebook">Palavras Cafeinadas</a>
+        </div>
+        <div class="icon_form">
+          <img src="/static/icon_form.svg" alt="icon_form">
+        </div>
+      </div>
+      
+      
+      <div class="form_contact">
+        <form method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
           
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+        </form>
+        <button type="submit">Enviar <img src="/static/Union.svg" alt=""></button>
+      </div>
+    </div>
+  </div>
+  
           <footer>
             <p>Desenvolvido em Conjunto para a aula de Certificadora de Competência Comum</p>
           </footer>
