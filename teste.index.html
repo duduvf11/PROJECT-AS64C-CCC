@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Chás</title>
+    <style>
+        /* Estilos CSS (substitua com os estilos reais) */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logotipo da Empresa">
+        <nav>
+            <a href="#sobre-nos">SOBRE NÓS</a>
+            <a href="#cardapio">CARDÁPIO</a>
+        </nav>
+    </header>
+
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Leia acompanhado de uma culinária de qualidade.</p>
+        <img src="imagem-sobre-nos.jpg" alt="Imagem da equipe">
+    </section>
+
+    <section id="cardapio">
+        <h2>Cardápio</h2>
+        <p>Conheça nossos chás:</p>
+        <ul>
+            <li>Chá Verde</li>
+            <li>Chá de Camomila</li>
+            <!-- ... outros tipos de chás ... -->
+        </ul>
+        <img src="imagem-cardapio.jpg" alt="Imagem dos chás">
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar-contato.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <!-- ... outros campos (E-mail, Telefone, Mensagem) ... -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Scripts e outros elementos aqui... -->
+</body>
+</html>
