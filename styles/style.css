@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+*/
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #F5F3ED;
+}
+
+a {
+    color: #F0F0F0;
+}
+  
+.navbar{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F0F0F0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #546730;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+}
+
+
+.Chamomila_header{
+    display: flex;
+    background-image: url(../static/chapreto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;
+    flex-direction: column;
+    gap: 41px;
+    justify-content: center;
+}
+
+.Chamomila_header h1, .Chamomila_header p{
+    width: 30%;
+    padding-left: 120px;
+}
+
+.Chamomila_header button{
+    display: flex;
+    width: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    background: #253529;
+    margin-left: 120px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F0F0F0;
+    
+}
+
+.header-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76.26px;
+    text-align: left;
+    color: #F0F0F0;
+}
+
+.header-content{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #F0F0F0;
+
+}
+
+.sobre-nos{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.sobre-nos .text{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+.sobre-nos h1{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+
+}
+
+.sobre-nos p{
+    width: 700px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 600px;
+}
+
+.sobre-nos button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    background: #63783D;
+    border-radius: 8px;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F0F0F0;
+    width: 40%;
+}
+
+.cardapio{
+    display: flex;
+    background-color: #63783D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.cafeonda{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 1600px;
+}
+
+.cafeonda img{
+    width: 100%;
+}
+
+.carrousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.carrousel h1{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #F0F0F0;
+
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    
+}
+
+.div_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact h1{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.contact a{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+
+.contact button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    background: #63783D;
+    border-radius: 8px;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    gap: 30px;
+    color: #F0F0F0;
+
+}
+
+.info_contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 8px;
+    width: 30%;
+    padding: 30px;
+    background-color: #63783D;
+}
+
+.info_text1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.info_text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.form_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_contact label{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1F0C00;
+    display: flex;
+    gap: 200px;
+}
+
+.form_contact textarea{
+    width: 609px;
+    height: 254px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border-color: #63783D;
+    opacity: 0px;
+
+}
+
+.form_contact input {
+    width: 609px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px;
+    border-color: #63783D;
+    opacity: 0px;
+}
+
+
+footer{
+    background: #253529;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #F0F0F0;
+
+}
